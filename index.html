@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>India</title>
+        <link href="jquery.vector-map.css" rel="stylesheet" type="text/css"/>
+        <script src="jquery.min.js"></script>
+        <script src="jquery.vector-map.js"></script>
+        <script src="india-en.js"></script>
+        <style>
+            #map { width: 400px; height: 300px }
+        </style>
+        <script>
+            $(function(){
+                $("#map").vectorMap({"map": "india_en"});
+            });
+        </script>
+    </head>
+    <body>
+        <div id="map"></div>
+    </body>
+</html>
